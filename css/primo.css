@@ -1,0 +1,44 @@
+a{
+    color: green;
+}
+
+a.rosso{
+    color: red;
+    font-size: medium;
+}
+
+a#giallo {
+    color: yellow;
+}
+
+a#secondo-piscine {
+    color: blue;
+}
+
+img#logo-catania {
+    margin: 10px;
+}
+
+p#font-figo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p.font-rosso{
+    color: red;
+}
+
+table{
+    border: 12px solid black;
+    margin: 142px;
+    padding: 20px;
+}
+
+td{
+    padding: 10px;
+}
+
+th{
+    padding: 15px;
+    font-size: 20pt;
+}
+

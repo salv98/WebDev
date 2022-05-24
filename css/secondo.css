@@ -1,0 +1,15 @@
+b { 
+    font-style: italic;
+} 
+
+strong {
+    font-style: bold;
+}
+span{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span.grassetto{
+    font-style: bold;
+}
