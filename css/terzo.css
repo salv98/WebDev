@@ -1,0 +1,15 @@
+p#font-size {
+	color: rgb(42, 165, 56);
+	font-size: x-large;
+}
+label#font-name {
+	font-size: larger;
+}
+*.centrato {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+}
+*.rosso {
+	color: brown;
+}
