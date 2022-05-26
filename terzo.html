@@ -7,10 +7,23 @@
 		<link rel="stylesheet" href="css/terzo.css" />
 		<title>quizzone</title>
 	</head>
-	<body>
-		<img class="centrato" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ockGxpxVaXYSvktR2yq4NQHaD5%26pid%3DApi&f=1" alt="">
+	<body id="sito-body">
+
+		<!-- COLLEGO JAVASCRIPT -->
+
+		<script src="js/terzo.js"></script>
+
+
+
+		<img
+			class="centrato"
+			src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ockGxpxVaXYSvktR2yq4NQHaD5%26pid%3DApi&f=1"
+			alt=""
+		/>
 		<strong>quiz</strong>
-		<h1 class="rosso centrato">le seguenti domande sono a solo scopo dimostrativo</h1>
+		<h1 class="rosso centrato">
+			le seguenti domande sono a solo scopo dimostrativo
+		</h1>
 		<br />
 		<br />
 		<p id="font-size">quale dei seguenti animali regna nella savana?</p>
@@ -24,7 +37,7 @@
 			/>
 			<br />
 			<input type="radio" name="scelta animale" id="radio2" />
-			<label  id="font-name" for="radio1">zebra</label>
+			<label id="font-name" for="radio1">zebra</label>
 			<br />
 			<img
 				src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.JfvW0Ed8lhT-kr5La_eIGAHaE7%26pid%3DApi&f=1"
@@ -43,8 +56,17 @@
 			<label id="font-name" for="radio1">leone</label>
 			<br />
 			<img
-			src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.Dugf9MdqGZ-pgHkocY7hTgHaD4%26pid%3DApi&f=1"
-			alt=""/>
+				src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.Dugf9MdqGZ-pgHkocY7hTgHaD4%26pid%3DApi&f=1"
+				alt=""
+			/>
 		</form>
+		<p style="font-size: 20px" id="dinamico"></p>
+
+		<input type="button" value="salvo" onclick="funzioneCiao()" />
+		<input type="button" value="michele" onclick="funzioneArrivederci()" />
+		<input type="button" value="zafferana" onclick="funzioneZafferana('black')" />	<!-- PASSO PARAMETRO -->
+		<input type="button" value="zafferana" onclick="funzioneZafferana('white')" />
+		<input type="color" name="" id="colore-js" onchange="cambiaColore()" />
+
 	</body>
 </html>
