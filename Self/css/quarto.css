@@ -1,0 +1,13 @@
+label.font-name {
+	font-size: larger;
+}
+*.centrato {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+}
+p#font-size {
+	font-size: large;
+	font-family: "Courier New", Courier, monospac;
+}
+
